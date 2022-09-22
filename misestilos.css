@@ -88,3 +88,32 @@ main > div {
 .recuperar {
     clear: both;
 }
+
+article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+}
+
+article time {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: #094660;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, .7);
+    border-radius: 5px;
+}
+
+.numeroDia {
+    font: bold 36px Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nombreDia {
+    font: bold 18px Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
