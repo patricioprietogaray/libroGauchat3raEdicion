@@ -135,3 +135,40 @@ figure img {
     padding: 5px;
     border: 1px solid;
 }
+
+#pieLogo {
+    width: 96%;
+    padding: 2%;
+    background-color: #0f76a0;
+}
+
+#pieLogo > div {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #9fc8d9;
+    border-radius: 10px;
+}
+
+.seccionPie {
+    float: left;
+    /* width: 270px; */
+    width: 27.33%;
+    /* padding: 25px; */
+    padding: 3%;
+
+}
+
+.seccionPie h2 {
+    font: bold 20px Arial, sans-serif;
+}
+
+.seccionPie p {
+    margin-top: 5px;
+}
+
+.seccionPie a {
+    font: bold 16px Arial, sans-serif;
+    color: #666666;
+    text-decoration: none;
+}
+
