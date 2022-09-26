@@ -10,7 +10,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScrip, evolution, proyect, simple, code, patricio, prieto, garay">
     <link rel="shortcut icon" href="./assets/icons/icons8-maple-leaf-96.png" type="image/x-icon">
     <link rel="stylesheet" href="./misestilos.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./fotos.css">
 </head>
 <body>
     <header id="cabeceraLogo">
@@ -19,13 +19,9 @@
         </div>        
     </header>
     <nav id="menuPrincipal">
-        <ul id="listaMenu">
+        <ul>
             <li><a href="./index.html">Principal</a></li>
             <li><a href="./fotos.html">Fotos</a></li>
-            <ul id="subMenuFotos">
-                <li><a href="./familia.html">Familia</a></li>
-                <li><a href="./vacaciones.html">Vacaciones</a></li>
-            </ul>
             <li><a href="./videos.html">Videos</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
         </ul>
@@ -33,36 +29,37 @@
     <main>
         <div>
             <section id="articulosPrincipales">
-                <article id="primero">
-                    <h2>Título del primer artículo</h2>
+                <article class="fotos">
                     <time datetime="2022-09-20" pubdate>
-                        <div class="numeroDia">20</div>
-                        <div class="nombreDia">Martes</div>
+                        <div class="Dia">Martes 20</div>
                     </time>
+                    <h2>
+                        <a href="./index.html#primero">
+                            Título del primer artículo
+                        </a>
+                    </h2>
+                    
                     <p>Este es el texto de mi primer artículo</p>
                     <figure>
-                        <img src="./assets/images/bosque2-e1539893598295.jpg" alt="bosque" width="500">
+                        <img src="./assets/images/bosque2-e1539893598295.jpg" alt="bosque" width="300">
                     </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolorem deserunt numquam repellat sed error suscipit commodi rem ratione at?</p>
                 </article>
-                <article id="segundo">
-                    <h2>Título del segundo artículo</h2>
+                <article class="fotos">
                     <time datetime="2022-09-20" pubdate>
-                        <div class="numeroDia">20</div>
-                        <div class="nombreDia">Martes</div>
+                        <div class="Dia">Martes 20</div>
                     </time>
+                    <h2>
+                        <a href="./index.html#segundo">
+                            Título del segundo artículo
+                        </a>
+                    </h2>
+                    
                     <p>Este es el texto de mi segundo artículo</p>
                     <figure>
-                        <img src="./assets/images/bosque2-e1539893598295.jpg" alt="bosque" width="500">
+                        <img src="./assets/images/bosque2-e1539893598295.jpg" alt="bosque" width="300">
                     </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem itaque magnam soluta, consequatur mollitia labore est pariatur atque ducimus molestias! Cum exercitationem culpa numquam consequuntur vitae eos reiciendis debitis, optio praesentium? Veniam distinctio doloribus fuga.</p>
                 </article>                
             </section>
-            <aside id="infoAdicional">
-                <h2>Información Personal</h2>
-                <p>Cita del articulo uno</p>
-                <p>Cita del articulo dos</p>
-            </aside>
             <div class="recuperar"></div>
         </div>
     </main>

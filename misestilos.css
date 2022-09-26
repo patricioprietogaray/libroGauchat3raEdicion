@@ -21,6 +21,7 @@
     color: #ffffff;
 }
 
+/* sin menu flotante */
 #menuPrincipal {
     width: 96%;
     height: 50px;
@@ -52,6 +53,47 @@
     text-decoration: none;
 }
 
+#listaMenu > li {
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+
+#listaMenu ul {
+    display: none;
+    position:absolute;
+    top: 22%;
+    left: 7%;
+    background-color: #9fc8d9;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, .7);
+    border-radius: 0px 0px 5px 5px;
+    list-style: none;
+    z-index: 1000;
+}
+
+#listaMenu > #subMenuFotos {
+    /* background-color: red; */
+    width: 120px;
+    height: 110px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#listaMenu li:hover + #subMenuFotos {
+    position: absolute;
+    display: inline-block;
+    /* top: 22%;
+    left: 7%; */
+}
+
+#listaMenu a {
+    font: bold 18px Arial, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
 main {
     width: 96%;
     padding: 2%;
@@ -63,75 +105,38 @@ main > div {
     margin: 0px auto;
 }
 
-#articulosPrincipales {
+#pieLogo {
+    width: 96%;
+    padding: 2%;
+    background-color: #0f76a0;
+}
+
+#pieLogo > div {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #9fc8d9;
+    border-radius: 10px;
+}
+
+.seccionPie {
     float: left;
-    width: 620px;
-    padding-top: 30px;
-    background-color: #ffffff;
-    border-radius: 10px;
+    /* width: 270px; */
+    width: 27.33%;
+    /* padding: 25px; */
+    padding: 3%;
+
 }
 
-#infoAdicional {
-    float: right;
-    width: 280px;
-    padding: 20px;
-    background-color: #e7f1f5;
-    border-radius: 10px;
+.seccionPie h2 {
+    font: bold 20px Arial, sans-serif;
 }
 
-#infoAdicional h2 {
-    font: bold 18px Arial, sans-serif;
-    color: #333333;
-    margin-bottom: 15px;
+.seccionPie p {
+    margin-top: 5px;
 }
 
-.recuperar {
-    clear: both;
-}
-
-article {
-    position: relative;
-    padding: 0px 40px 20px 40px;
-}
-
-article time {
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -70px;
-    width: 80px;
-    padding: 15px 5px;
-    background-color: #094660;
-    box-shadow: 3px 3px 5px rgba(100, 100, 100, .7);
-    border-radius: 5px;
-}
-
-.numeroDia {
-    font: bold 36px Verdana, sans-serif;
-    color: #ffffff;
-    text-align: center;
-}
-
-.nombreDia {
-    font: bold 18px Verdana, sans-serif;
-    color: #ffffff;
-    text-align: center;
-}
-
-article h2 {
-    margin-bottom: 5px;
-    font: bold 30px Georgia, sans-serif;
-}
-
-article p {
-    font: 18px Georgia, sans-serif;
-}
-
-figure {
-    margin: 10px 0px;
-}
-
-figure img {
-    padding: 5px;
-    border: 1px solid;
+.seccionPie a {
+    font: bold 16px Arial, sans-serif;
+    color: #666666;
+    text-decoration: none;
 }

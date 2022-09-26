@@ -1,0 +1,72 @@
+#articulosPrincipales {
+    float: left;
+    width: 620px;
+    padding-top: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#infoAdicional {
+    float: right;
+    width: 280px;
+    padding: 20px;
+    background-color: #e7f1f5;
+    border-radius: 10px;
+}
+
+#infoAdicional h2 {
+    font: bold 18px Arial, sans-serif;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.recuperar {
+    clear: both;
+}
+
+article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+}
+
+article time {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: #094660;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, .7);
+    border-radius: 5px;
+}
+
+.numeroDia {
+    font: bold 36px Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nombreDia {
+    font: bold 18px Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+article h2 {
+    margin-bottom: 5px;
+    font: bold 30px Georgia, sans-serif;
+}
+
+article p {
+    font: 18px Georgia, sans-serif;
+}
+
+figure {
+    margin: 10px 0px;
+}
+
+figure img {
+    padding: 5px;
+    border: 1px solid;
+}

@@ -1,0 +1,32 @@
+
+.fotos {
+    display: inline-block;
+    width: 36%;
+}
+
+.fotos .Dia {
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    padding: 5px 5px;
+    margin-top: -25px;
+    background-color: #094660;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, .7);
+    border-radius: 5px;
+    font: bold 16px Arial, sans-serif;
+    color: #ffffff;
+}
+
+.fotos h2 {
+    padding: 3%;
+}
+
+.fotos figure {
+    margin-bottom: 15%;
+}
+
+#articulosPrincipales {
+    background-color: antiquewhite;
+    padding: 2%;
+    border-radius: 10px;
+}
